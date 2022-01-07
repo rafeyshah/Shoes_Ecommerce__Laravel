@@ -1,0 +1,135 @@
+.about-us {
+	display: flex;
+	align-items: center;
+	&__img {
+		transform: scale(0.9);
+	}
+}
+
+.content {
+	flex-basis: 45%;
+	&_center {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	&_squeezed {
+		padding: 0 13rem;
+	}
+	&__header {
+		font-family: 'Cormorant Garamond';
+		font-size: 2.5rem;
+		&_spacetop {
+			margin-top: 6.25rem;
+		}
+		&_small {
+			font-size: 1.5rem;
+		}
+	}
+	&__desc {
+		font-family: 'Poppins';
+	    margin-top: 1.5rem;
+	    line-height: 1.7rem;
+	    font-size: 0.84rem;
+	    color: $skewed-grayer;
+	    text-align: justify;
+	    &_center {
+	    	text-align: center;
+	    }
+	}
+	&__author {
+		font-family: 'Poppins';
+		font-size: 0.9375rem;
+		font-weight: regular;
+		color: #666666;
+		margin-top: 2.375rem;
+	}
+	&__position {
+		font-family: 'Poppins';
+		font-size: 0.9375rem;
+		font-weight: regular;
+		color: #51cda9;
+		margin-top: 0.875rem;
+		margin-bottom: 6.25rem;
+	}
+}
+
+.button {
+	position: relative;
+	max-width: 17rem;
+	margin-top: 6.688rem;
+	&_right {
+		float: right;
+	}
+	&_left {
+		float: left;
+	}
+	&__text {
+		font-family: 'Poppins';
+		font-size: 0.9rem;
+		text-decoration: none;
+		color: black;
+		font-weight: bolder;
+		padding: 0.7rem 1rem;
+		background: $skewed-green;
+		z-index: 2;
+		transition: all 0.3s ease 0s;
+		&:hover {
+			background-color: #2EE59D;
+			box-shadow: 0rem 0.9375rem 1.25rem rgba(46, 229, 157, 0.4);
+			color: #fff;
+		}
+		&_big {
+			padding-left: 1.473125rem;
+			padding-top: 0.625rem;
+			padding-bottom: 0.625rem;
+			padding-right: 1.473125rem;
+			position: relative;
+			top: -6rem;
+			left: 5rem;
+			font-family: 'Poppins';
+			font-size: 1.5rem;
+			letter-spacing: .09rem;
+			@media screen and (-webkit-min-device-pixel-ratio:0) {
+				letter-spacing: 1px;
+			}
+			font-weight: bolder;
+			line-height: 2;
+			color: #323237;
+			text-decoration: none;
+			z-index: 2;
+			background-color: $skewed-green;	
+		}	
+	}
+	&__shadow {
+		color: $skewed-green;
+		border: 0.0625rem solid $skewed-green;
+		position: absolute;
+		left: -1rem;
+		width: 6rem;
+		height: 2rem;
+		top: -1.5rem;
+		z-index: -1;
+		&_shadowleft {
+			color: $skewed-green;
+		    border: .0625rem solid $skewed-green;
+		    padding: .4rem 3.5rem;
+		    left: -7.8rem;
+		    top: 4.8rem;
+		    z-index: -1;
+		}
+		&_big {
+			width: 15.6rem;
+			height: 3rem;
+			border: 0.150rem solid $skewed-green;
+			z-index: 0;
+			left: 4rem;
+			top: -5.5rem;
+		}
+		&_bigger {
+			left: 25rem;
+			padding: .4rem 3.4rem;
+		}	
+	}
+}

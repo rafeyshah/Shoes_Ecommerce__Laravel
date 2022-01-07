@@ -1,0 +1,82 @@
+.main-nav {
+	margin: 0 auto;
+	&__items {
+		display: flex;
+		align-items: center;
+		padding-top: 2.9rem;
+	}
+	&__item:first-child {
+		margin-right: auto;
+	}
+	&__btn {
+		display: block;
+		position: relative;
+		top: 0.6rem;
+		width: 3rem;
+		height: 3rem;
+		transition: filter 0.3s ease-in;
+		&:hover {
+			filter: invert(1);		
+		}
+	}
+	&__logo {
+		position: relative;
+		top: 0.6rem;
+		left: 0.3rem;
+	}
+	&__logotext {
+		font-size: 18pt;
+		font-family: "Ubuntu";
+		color: #61e9c2;
+		letter-spacing: 0.02rem;
+		text-decoration: none;
+		margin-left: 0.15rem;
+		transition: 0.3s ease-in;
+		&-color {
+			background-color: transparent;
+			color: #232323;	
+		}
+		&:hover {
+			color: #232323;
+		}
+	}
+	&__link {
+		text-decoration: none;
+	}
+}
+
+.overlay-menu {
+	z-index: 999;
+	position: fixed;
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: white;
+	transition: 0.3s ease-in-out;
+	&__item {
+		font-family: 'Poppins';
+		font-size: 2.5rem;
+		margin-top: 2rem;
+		font-weight: 400;
+		text-decoration: none;
+		color: $skewed-grayer;
+		transition: all 0.3s ease 0s;
+		&:hover {
+			color: $skewed-green;
+		}
+	}
+	&__closebtn {
+		position: absolute;
+		width: 3rem;
+		height: 3rem;
+		top: 3.5rem;
+		right: 9%;
+		&:hover {
+			
+		}
+	}
+}
