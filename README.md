@@ -1,3 +1,13 @@
+## Demo Video 
+- **[Demo Video Click Here ](https://www.loom.com/share/24fba2cbd7494db38a704be2197f461f)**
+
+## Shoes Ecommerce Site Laravel + MySQL
+- CRUD
+- One to Many, Many to Many
+- User Authentication
+- File Upload/Download
+- Mailing
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
