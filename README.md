@@ -1,5 +1,5 @@
 ## Demo Video 
-- (https://www.loom.com/share/24fba2cbd7494db38a704be2197f461f)
+- https://www.loom.com/share/24fba2cbd7494db38a704be2197f461f
 
 ## Shoes Ecommerce Site Laravel + MySQL
 - CRUD
